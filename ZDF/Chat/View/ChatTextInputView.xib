@@ -23,7 +23,10 @@
                             <constraints>
                                 <constraint firstAttribute="width" constant="48" id="Bex-WW-SoR"/>
                             </constraints>
-                            <state key="normal" title="+"/>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                            <state key="normal" title="📎">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                             <connections>
                                 <action selector="handleAddButton:" destination="-1" eventType="touchUpInside" id="Ton-ml-IWi"/>
                             </connections>
@@ -39,8 +42,9 @@
                             <constraints>
                                 <constraint firstAttribute="width" constant="48" id="6Yt-cZ-iaN"/>
                             </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
                             <inset key="titleEdgeInsets" minX="-4" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <state key="normal" title="Send"/>
+                            <state key="normal" title="🚀"/>
                             <connections>
                                 <action selector="handleSendButton:" destination="-1" eventType="touchUpInside" id="s36-gg-HZa"/>
                             </connections>

@@ -68,14 +68,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◀︎" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qQ-fX-kkj">
-                                <rect key="frame" x="3" y="94.5" width="22" height="26.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.84709084030000004" green="0.84705889229999998" blue="0.84708070759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <size key="shadowOffset" width="-2" height="0.0"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -83,8 +75,6 @@
                             <constraint firstAttribute="width" constant="256" id="Lr5-fO-q8w"/>
                             <constraint firstAttribute="bottom" secondItem="ccD-sz-G8f" secondAttribute="bottom" constant="16" id="XIY-kq-aN3"/>
                             <constraint firstItem="ccD-sz-G8f" firstAttribute="leading" secondItem="SRM-Dm-i4v" secondAttribute="leading" constant="16" id="cfW-OG-oO6"/>
-                            <constraint firstItem="7qQ-fX-kkj" firstAttribute="bottom" secondItem="ccD-sz-G8f" secondAttribute="bottom" constant="4" id="dGr-GC-dda"/>
-                            <constraint firstItem="7qQ-fX-kkj" firstAttribute="trailing" secondItem="ccD-sz-G8f" secondAttribute="leading" constant="9" id="mNF-FD-kTE"/>
                             <constraint firstItem="ccD-sz-G8f" firstAttribute="top" secondItem="SRM-Dm-i4v" secondAttribute="top" constant="16" id="mZq-MO-yKj"/>
                         </constraints>
                     </view>
